@@ -7,7 +7,8 @@
 
 ## Week 2
  * isValidIdentifier - function that checks whether a string is a valid identifier.
- * SumExtensionFunction - sum of List\<Int\> as an extension function
+ * SumExtensionFunction - sum of List\<Int\> as an extension function.
+ * Mastermind - an evaluator for the [Mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game)) game.
  
 - - - -
 
