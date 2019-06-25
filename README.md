@@ -12,6 +12,8 @@
  
 ## Week 3
  * isEmptyOrNull - an extension function on the type `String?`; it return true, if the string is null or empty.
+ * InterchangeablePredicates -  functions `allNonZero` and `containsZero` implemented 
+using `all`, `none` and `any` predicates in turn.
 - - - -
 
 Sergey Lobanov
