@@ -52,14 +52,11 @@ internal class MastermindKtTest {
     )
     fun evaluateGuess(secret: String, guess: String, rightPosition: Int, wrongPosition: Int) {
         val evaluation = evaluateGuess(secret, guess)
-        assertSoftly { softly ->
-            softly.assertThat(evaluation).extracting {
-                it.rightPosition
-            }.`as`("rightPosition").isEqualTo(rightPosition)
-
-            softly.assertThat(evaluation).extracting {
-                it.wrongPosition
-            }.`as`("wrongPosition").isEqualTo(wrongPosition)
+        assertSoftly {
+            it.assertThat(evaluation.rightPosition)
+                .`as`("rightPosition").isEqualTo(rightPosition)
+            it.assertThat(evaluation.wrongPosition)
+                .`as`("wrongPosition").isEqualTo(wrongPosition)
         }
     }
 }
