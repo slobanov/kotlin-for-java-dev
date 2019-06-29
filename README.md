@@ -14,6 +14,11 @@
  * isEmptyOrNull - an extension function on the type `String?`; it return true, if the string is null or empty.
  * InterchangeablePredicates -  functions `allNonZero` and `containsZero` implemented 
 using `all`, `none` and `any` predicates in turn.
+ * NiceString - function to check if a string is "nice".
+ A string is nice if at least two of the following conditions are satisfied:           
+   * It doesn't contain substrings `"bu"`, `"ba"` or `"be"`;
+   * It contains at least three vowels (vowels are `'a'`, `'e'`, `'i'`, `'o'` and `'u'`);
+   * It contains a double letter (at least two similar letters following one another).
 - - - -
 
 Sergey Lobanov
