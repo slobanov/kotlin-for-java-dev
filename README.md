@@ -19,6 +19,8 @@ using `all`, `none` and `any` predicates in turn.
    * It doesn't contain substrings `"bu"`, `"ba"` or `"be"`;
    * It contains at least three vowels (vowels are `'a'`, `'e'`, `'i'`, `'o'` and `'u'`);
    * It contains a double letter (at least two similar letters following one another).
+ * TaxiPark - is the class that stores information about registered drivers, passengers, and their trips;
+   TaxiParkTask - a set of six functions which collect different statistics about the data.
 - - - -
 
 Sergey Lobanov
