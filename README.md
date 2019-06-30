@@ -21,7 +21,11 @@ using `all`, `none` and `any` predicates in turn.
    * It contains a double letter (at least two similar letters following one another).
  * TaxiPark - is the class that stores information about registered drivers, passengers, and their trips;
    TaxiParkTask - a set of six functions which collect different statistics about the data.
+   
+## Week 4
+ * Rational - a class representing rational numbers 
+ and a couple of auxiliary functions
+ 
 - - - -
-
 Sergey Lobanov
 [s.y.lobanov@yandex.ru](mailto:s.y.lobanov@yandex.ru?Subject=otus-springframework-2018-11-slobanov)
