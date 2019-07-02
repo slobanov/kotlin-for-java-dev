@@ -24,8 +24,9 @@ using `all`, `none` and `any` predicates in turn.
    
 ## Week 4
  * Rational - a class representing rational numbers 
- and a couple of auxiliary functions
- 
+ and a couple of auxiliary functions.
+ * Board and BoardImpl - interfaces SquareBoard and GameBoard with their 
+ corresponding implementations.
 - - - -
 Sergey Lobanov
 [s.y.lobanov@yandex.ru](mailto:s.y.lobanov@yandex.ru?Subject=otus-springframework-2018-11-slobanov)
