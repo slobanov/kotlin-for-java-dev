@@ -36,7 +36,7 @@ private class GameBoardImpl<T>(board: SquareBoard):
     private val cellToValueMap: MutableMap<Cell, T?> =
         getAllCells().associateWithTo(mutableMapOf(), { null })
 
-    val cellValues
+    private val cellValues: MutableCollection<T?>
         get() = cellToValueMap.values
 
     override fun get(cell: Cell): T? = cellToValueMap[cell]
