@@ -27,6 +27,12 @@ using `all`, `none` and `any` predicates in turn.
  and a couple of auxiliary functions.
  * Board and BoardImpl - interfaces SquareBoard and GameBoard with their 
  corresponding implementations.
+ 
+ ## Week 5
+ * Game2048 and GameOfFifteen - implementations of 
+ [the Game 2048](https://en.wikipedia.org/wiki/2048_(video_game)) and
+ [the Game of Fifteen](https://en.wikipedia.org/wiki/15_puzzle) respectively.
+ 
 - - - -
 Sergey Lobanov
 [s.y.lobanov@yandex.ru](mailto:s.y.lobanov@yandex.ru?Subject=otus-springframework-2018-11-slobanov)
